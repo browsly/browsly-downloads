@@ -1,7 +1,7 @@
 <div align="center">
 
 <img src="logo.png" alt="Browsly Downloads beta testing banner for the Windows visual workflow automation desktop app" width="10%" />
-
+ 
 # Browsly
 
 ### Offline-first visual workflow automation powered by Node.js libraries
