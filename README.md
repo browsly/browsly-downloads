@@ -1,12 +1,14 @@
 <div align="center">
 
-<img src="browsly_banner.png" alt="Browsly Downloads beta testing banner for the Windows visual workflow automation desktop app" width="100%" />
+<img src="logo.png" alt="Browsly Downloads beta testing banner for the Windows visual workflow automation desktop app" width="10%" />
 
 # Browsly
 
 ### Offline-first visual workflow automation powered by Node.js libraries
 
 Build, run, schedule, and monitor visual automation workflows from a drag-and-drop desktop interface.
+
+
 
 > **Beta Testing:** Browsly is currently available through early-access Windows builds. Features and behaviour may change based on testing and user feedback.
 
@@ -23,6 +25,8 @@ Build, run, schedule, and monitor visual automation workflows from a drag-and-dr
 [Report an Issue](https://github.com/browsly/browsly-downloads/issues/new)
 
 </div>
+
+<img src="browsly_banner.png" alt="Browsly Downloads beta testing banner for the Windows visual workflow automation desktop app" width="100%" />
 
 ---
 
@@ -231,6 +235,7 @@ If Browsly is useful to you:
 ---
 
 <div align="center">
+<img src="logo.png" alt="Browsly Downloads beta testing banner for the Windows visual workflow automation desktop app" width="10%" />
 
 **Browsly**
 
