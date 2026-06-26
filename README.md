@@ -4,6 +4,14 @@
  
 # Browsly
 
+## Visual Workflow Automation Platform
+
+## Build Desktop Automation Workflows
+
+## Offline First Node.js Workflow Builder
+
+## Drag and Drop Automation
+
 ### Offline-first visual workflow automation powered by Node.js libraries
 
 Build, run, schedule, and monitor visual automation workflows from a drag-and-drop desktop interface.
