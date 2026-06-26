@@ -4,18 +4,9 @@
  
 # Browsly
 
-## Visual Workflow Automation Platform
+### Visual Workflow Automation Platform for Windows
 
-## Build Desktop Automation Workflows
-
-## Offline First Node.js Workflow Builder
-
-## Drag and Drop Automation
-
-### Offline-first visual workflow automation powered by Node.js libraries
-
-Build, run, schedule, and monitor visual automation workflows from a drag-and-drop desktop interface.
-
+Build offline-first desktop automation workflows with a drag-and-drop builder powered by Node.js libraries.
 
 
 > **Beta Testing:** Browsly is currently available through early-access Windows builds. Features and behaviour may change based on testing and user feedback.
