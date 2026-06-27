@@ -76,7 +76,7 @@ Browse installed Node.js packages, search nodes and drag supported actions into 
 
 Review builder events, workflow runs, variables, resources, warnings and errors without leaving the workflow editor.
 
-<img src="workflow-builder-logs.png" alt="Browsly execution logs panel inside the workflow builder" width="100%" />
+<img src="screenshots/workflow-builder-logs.png" alt="Browsly execution logs panel inside the workflow builder" width="100%" />
 
 ### Libraries
 
@@ -106,13 +106,13 @@ Store API keys, tokens, connection strings and signing secrets in an encrypted c
 
 Review audit trail events across projects, workflow updates, library management and execution history.
 
-<img src="docs/screenshots/activity.png" alt="Browsly activity page showing audit trail and workflow history" width="100%" />
+<img src="screenshots/activity.png" alt="Browsly activity page showing audit trail and workflow history" width="100%" />
 
 ### Settings
 
 Customize interface theme, workspace background, security settings, updates and subscription preferences.
 
-<img src="docs/screenshots/settings.png" alt="Browsly settings page with light and dark theme options" width="100%" />
+<img src="screenshots/settings.png" alt="Browsly settings page with light and dark theme options" width="100%" />
 
 ---
 
