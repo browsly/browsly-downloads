@@ -2,9 +2,11 @@
 
 <img src="logo.png" alt="Browsly Downloads beta testing banner for the Windows visual workflow automation desktop app" width="10%" />
  
-# Browsly
+# Browsly – Offline Workflow Automation Builder for Windows
 
 ### Visual Workflow Automation Platform for Windows
+### Build browser automation, desktop automation, API automation,
+### file automation and AI workflows using a drag-and-drop visual editor.
 
 Build offline-first desktop automation workflows with a drag-and-drop builder powered by Node.js libraries.
 
