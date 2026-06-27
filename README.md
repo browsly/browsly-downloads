@@ -1,15 +1,12 @@
 <div align="center">
 
-<img src="logo.png" alt="Browsly Downloads beta testing banner for the Windows visual workflow automation desktop app" width="10%" />
- 
+<img src="logo.png" alt="Browsly logo" width="10%" />
+
 # Browsly – Offline Workflow Automation Builder for Windows
 
-### Visual Workflow Automation Platform for Windows
-### Build browser automation, desktop automation, API automation,
-### file automation and AI workflows using a drag-and-drop visual editor.
+### Visual workflow automation for browser automation, desktop automation, API automation, file automation, scraping, data workflows and AI workflows.
 
-Build offline-first desktop automation workflows with a drag-and-drop builder powered by Node.js libraries.
-
+Build, run, schedule, monitor and organize automation workflows from a local desktop app powered by reusable Node.js libraries.
 
 > **Beta Testing:** Browsly is currently available through early-access Windows builds. Features and behaviour may change based on testing and user feedback.
 
@@ -27,7 +24,7 @@ Build offline-first desktop automation workflows with a drag-and-drop builder po
 
 </div>
 
-<img src="browsly_banner.png" alt="Browsly Downloads beta testing banner for the Windows visual workflow automation desktop app" width="100%" />
+<img src="browsly_banner.png" alt="Browsly visual workflow automation builder for Windows" width="100%" />
 
 ---
 
@@ -35,13 +32,154 @@ Build offline-first desktop automation workflows with a drag-and-drop builder po
 
 This is the official Windows download and release repository for **Browsly**.
 
-It hosts beta installers, portable builds, release notes, and update assets used by the Browsly desktop application. This repository contains compiled release files only. It does not contain the Browsly application source code.
+It hosts beta installers, portable builds, release notes and update assets used by the Browsly desktop application. This repository contains compiled release files only. It does not contain the Browsly application source code.
 
 ## What Is Browsly?
 
-**Browsly is an offline-first visual workflow automation platform for Windows.** It turns Node.js libraries into reusable drag-and-drop workflow nodes, helping users create automations without manually connecting every script, package, and execution step.
+**Browsly is an offline-first visual workflow automation platform for Windows.**
 
-With Browsly, you can visually design a workflow, configure its inputs, run it locally, inspect execution logs, expose local API endpoints, and schedule workflows from one desktop application.
+It turns supported Node.js packages into reusable workflow nodes, so users can build automation flows visually instead of manually writing and connecting every script, package, input, output and execution step.
+
+With Browsly, you can:
+
+- Build workflows on a drag-and-drop canvas
+- Use Node.js libraries as workflow nodes
+- Run workflows locally from your Windows machine
+- Manage projects, workflows, libraries and secrets
+- Review execution logs, variables, resources and failed runs
+- Detect workflow issues before running
+- Keep automation work organized in a clean desktop workspace
+
+---
+
+## Product Preview
+
+### Dashboard and Operations Overview
+
+Track workflow activity, completed nodes, estimated time saved, failed runs and overall run health from one dashboard.
+
+<img src="screenshots/dashboard.png" alt="Browsly dashboard showing workflow metrics and operations overview" width="100%" />
+
+### Visual Workflow Builder
+
+Create workflows by placing nodes on the canvas, connecting steps and running the automation directly from the builder.
+
+<img src="screenshots/workflow-builder.png" alt="Browsly visual workflow builder with connected automation nodes" width="100%" />
+
+### Node Library Panel
+
+Browse installed Node.js packages, search nodes and drag supported actions into the workflow canvas.
+
+<img src="screenshots/workflow-builder-canvas.png" alt="Browsly workflow builder with Node.js package panel and automation canvas" width="100%" />
+
+### Execution Logs
+
+Review builder events, workflow runs, variables, resources, warnings and errors without leaving the workflow editor.
+
+<img src="workflow-builder-logs.png" alt="Browsly execution logs panel inside the workflow builder" width="100%" />
+
+### Libraries
+
+Browse published, versioned Node.js libraries available to the Browsly workflow runtime.
+
+<img src="screenshots/libraries.png" alt="Browsly libraries marketplace for workflow automation packages" width="100%" />
+
+### Projects
+
+Organize workflows into workspaces, view project health and manage workflow capacity from a table-based project view.
+
+<img src="screenshots/projects.png" alt="Browsly projects page with workflow and project performance table" width="100%" />
+
+### Workflows
+
+Search, filter, run and manage workflow drafts, valid workflows, invalid workflows and project-specific automations.
+
+<img src="screenshots/workflows.png" alt="Browsly workflows page with workflow list, filters and run controls" width="100%" />
+
+### Secrets
+
+Store API keys, tokens, connection strings and signing secrets in an encrypted credential vault.
+
+<img src="screenshots/secrets.png" alt="Browsly secrets vault for storing protected credentials" width="100%" />
+
+### Activity
+
+Review audit trail events across projects, workflow updates, library management and execution history.
+
+<img src="docs/screenshots/activity.png" alt="Browsly activity page showing audit trail and workflow history" width="100%" />
+
+### Settings
+
+Customize interface theme, workspace background, security settings, updates and subscription preferences.
+
+<img src="docs/screenshots/settings.png" alt="Browsly settings page with light and dark theme options" width="100%" />
+
+---
+
+## Key Features
+
+| Feature | What it helps you do |
+|---|---|
+| **Visual Workflow Builder** | Build automation flows by connecting configurable nodes on a canvas |
+| **Node.js Library Integration** | Use supported Node.js packages as reusable workflow actions |
+| **Drag-and-Drop Node System** | Search packages, pick node types and place actions into workflows quickly |
+| **Local Workflow Execution** | Run supported workflows from your Windows desktop environment |
+| **Workflow Detection** | Detect workflow issues and missing setup before execution |
+| **Execution Logs** | Review workflow events, outputs, warnings, resources and errors |
+| **Project Management** | Group workflows into projects and track workflow success |
+| **Library Marketplace** | Browse, install and manage versioned workflow libraries |
+| **Secrets Vault** | Store API keys and credentials without exposing them inside workflows |
+| **Activity Audit Trail** | Track workflow changes, project operations and execution history |
+| **Workflow Monitoring** | View run health, failed runs, success rate and recent execution activity |
+| **Automatic Updates** | Receive update notifications when newer beta releases are published |
+
+---
+
+## Workflow Builder Capabilities
+
+Browsly is designed around a simple workflow-building flow:
+
+1. **Choose a library**  
+   Browse installed or published Node.js libraries such as scraping, documents, data, AI, browser automation and integrations.
+
+2. **Select a node**  
+   Pick a node type from the package panel and drag it into the workflow canvas.
+
+3. **Connect steps**  
+   Link nodes visually to define the automation path.
+
+4. **Configure inputs**  
+   Add variables, resources, credentials and node-specific settings.
+
+5. **Detect issues**  
+   Use workflow detection to identify missing setup, invalid connections or incomplete steps.
+
+6. **Run locally**  
+   Execute the workflow from your Windows desktop app.
+
+7. **Review logs**  
+   Inspect logs, variables, resources, warnings and errors after the run.
+
+---
+
+## Common Use Cases
+
+Browsly can support workflows such as:
+
+- Browser automation and website interaction flows
+- HTML scraping and extraction workflows
+- API automation and data movement
+- Document generation and file processing
+- Spreadsheet and data transformation workflows
+- AI workflow prototyping with local or connected services
+- Internal tool automation for teams
+- Scheduled desktop automation tasks
+- Local workflow testing before production implementation
+- Reusable automation pipelines powered by Node.js packages
+
+Available capabilities depend on the Browsly version, installed libraries, node configuration, credentials and local system permissions.
+
+---
 
 ## Beta Testing
 
@@ -49,13 +187,15 @@ Browsly is currently in beta testing.
 
 The available releases are early-access builds intended for testers and users who want to explore the platform before its stable release. During the beta period:
 
-- Features may be added, changed, or removed
+- Features may be added, changed or removed
 - Some workflows may behave differently across releases
 - Bugs and incomplete functionality may still be present
-- User feedback will help guide product improvements
+- UI and workflow behaviour may change based on feedback
 - Important workflows should be tested before production use
 
 Please report reproducible issues through the [GitHub issue tracker](https://github.com/browsly/browsly-downloads/issues).
+
+---
 
 ## Download Browsly
 
@@ -67,40 +207,14 @@ A release may include:
 
 | Release asset | Best for |
 |---|---|
-| **Windows installer (`.exe`)** | Standard installation and automatic updates |
-| **Portable build (`.zip`)** | Running Browsly without a traditional installation |
-| **Release notes** | Reviewing new features, fixes, limitations, and known changes |
-| **Checksums** | Verifying a downloaded file when checksums are supplied |
+| **Windows installer `.exe`** | Standard installation and automatic updates |
+| **Portable build `.zip`** | Running Browsly without a traditional installation |
+| **Release notes** | Reviewing new features, fixes, limitations and known changes |
+| **Checksums** | Verifying downloaded files when checksums are supplied |
 
 > **Security notice:** Download Browsly only from this repository or another official Browsly channel. Avoid installers distributed by third-party download websites.
 
-## Key Features
-
-| Feature | What it helps you do |
-|---|---|
-| **Visual Workflow Builder** | Build automation flows by connecting configurable nodes on a visual canvas |
-| **Node.js Library Integration** | Turn supported Node.js packages and libraries into reusable workflow actions |
-| **Local Workflow Execution** | Run supported workflows directly from your Windows computer |
-| **Workflow Scheduler** | Run recurring or time-based workflows automatically |
-| **Local API Endpoints** | Trigger supported workflows through endpoints available in your local environment |
-| **Execution Logs and Monitoring** | Review workflow runs, outputs, errors, and execution status |
-| **Library Marketplace** | Discover and add supported workflow libraries and nodes |
-| **Automatic Updates** | Receive notifications when a newer Browsly beta version is available |
-
-## Common Use Cases
-
-Browsly can support workflows such as:
-
-- Automating repetitive developer and operations tasks
-- Connecting Node.js packages through a visual workflow
-- Building local data-processing pipelines
-- Running scheduled desktop automations
-- Creating reusable internal tools
-- Prototyping automation logic before writing a full application
-- Triggering local workflows through API endpoints
-- Monitoring workflow execution and troubleshooting failed steps
-
-Available capabilities depend on the Browsly version, installed libraries, node configuration, and local system permissions.
+---
 
 ## Install Browsly on Windows
 
@@ -121,24 +235,20 @@ Available capabilities depend on the Browsly version, installed libraries, node 
 
 Portable builds may store application files and settings differently from installed builds.
 
+---
+
 ## System Requirements
 
-### Windows
+| Requirement | Minimum |
+|---|---|
+| **Operating system** | Windows 10 64-bit or newer |
+| **Memory** | 4 GB RAM minimum |
+| **Storage** | Enough space for Browsly, libraries, workflow files and execution data |
+| **Internet** | Required for downloads, updates, libraries and external services |
 
-- Windows 10 64-bit or newer
-- 4 GB RAM minimum
-- Sufficient storage for Browsly, installed libraries, workflow files, and execution data
-- Internet connection for downloading Browsly, libraries, and application updates
+Some workflows may require additional memory, permissions, runtimes, API credentials or network access.
 
-Some workflows may require additional memory, storage, permissions, runtimes, API credentials, or network access.
-
-## Automatic Updates
-
-Browsly checks for new releases through this repository.
-
-When an update is available, the application can display an update notification. Follow the in-app instructions or return to the [latest release page](https://github.com/browsly/browsly-downloads/releases/latest) to download it manually.
-
-Because Browsly is currently in beta, review the release notes before updating important workflows.
+---
 
 ## Verify Your Download
 
@@ -149,6 +259,8 @@ For a safer installation:
 3. Verify the checksum when a release provides one.
 4. Do not install copies from unofficial software-download websites.
 5. Report unexpected installer behaviour through the public issue tracker.
+
+---
 
 ## Troubleshooting
 
@@ -172,7 +284,9 @@ When creating an issue, include:
 
 ### [Report a Browsly Installation or Release Issue](https://github.com/browsly/browsly-downloads/issues/new)
 
-Do not publish passwords, API keys, private workflow data, access tokens, or confidential files in a public issue.
+Do not publish passwords, API keys, private workflow data, access tokens or confidential files in a public issue.
+
+---
 
 ## Frequently Asked Questions
 
@@ -186,7 +300,7 @@ No. This repository distributes official compiled Browsly releases and update as
 
 ### Does Browsly work offline?
 
-Browsly is designed as an offline-first application and supports local workflow execution. An internet connection may still be required to download the application, install libraries, access external services, or receive updates.
+Browsly is designed as an offline-first application and supports local workflow execution. An internet connection may still be required to download the app, install libraries, access external services or receive updates.
 
 ### Which operating systems are supported?
 
@@ -194,15 +308,21 @@ The releases in this repository currently target 64-bit Windows systems running 
 
 ### Can Browsly use Node.js libraries?
 
-Browsly is designed to transform supported Node.js libraries into configurable workflow nodes. Compatibility can vary by package, version, required permissions, and runtime behaviour.
+Yes. Browsly is designed to transform supported Node.js libraries into configurable workflow nodes. Compatibility can vary by package, version, permissions and runtime behaviour.
+
+### Can I store API keys safely?
+
+Browsly includes a secrets vault for storing keys, tokens and connection strings. Do not share secrets publicly in issues, screenshots or logs.
 
 ### Where can I download the newest version?
 
-Use the permanent [latest release link](https://github.com/browsly/browsly-downloads/releases/latest). It automatically redirects to the newest release published in this repository.
+Use the permanent [latest release link](https://github.com/browsly/browsly-downloads/releases/latest). It redirects to the newest release published in this repository.
 
 ### How do I know whether an installer is official?
 
 Check that it was downloaded from the **Releases** section of `browsly/browsly-downloads`. Do not trust repackaged installers hosted on unrelated websites.
+
+---
 
 ## Repository Purpose
 
@@ -216,11 +336,15 @@ This repository is maintained for:
 - Collecting installation and release-related feedback
 - Tracking reproducible beta issues
 
+---
+
 ## Licensing
 
-This is a binary distribution repository. Public availability of release files does not by itself grant an open-source licence or permission to modify, redistribute, reverse engineer, or commercially reuse Browsly.
+This is a binary distribution repository. Public availability of release files does not by itself grant an open-source licence or permission to modify, redistribute, reverse engineer or commercially reuse Browsly.
 
 Refer to the licence terms supplied with the application or provided by the Browsly maintainers.
+
+---
 
 ## Support Browsly
 
@@ -236,11 +360,12 @@ If Browsly is useful to you:
 ---
 
 <div align="center">
-<img src="logo.png" alt="Browsly Downloads beta testing banner for the Windows visual workflow automation desktop app" width="10%" />
+
+<img src="logo.png" alt="Browsly logo" width="10%" />
 
 **Browsly**
 
-Visual Node.js workflow automation for Windows
+Offline-first visual Node.js workflow automation for Windows
 
 **Currently in Beta Testing**
 
